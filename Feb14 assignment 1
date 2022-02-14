@@ -1,0 +1,10 @@
+n=int(input("Enter number:"))
+Count=0
+While(n>0):
+   Count=count+1
+   n=n//10
+Print("The number of digits in the number are:",count)
+
+Output:
+Enter number:345678
+The number of digits in the numbers are: 6
